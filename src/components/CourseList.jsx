@@ -36,7 +36,7 @@ const CourseList = () => {
                         onClick={() => {
                             removeCourse(course.id)
                         }}
-                        className="delete btn">Delete</button>
+                        className="delete-btn">Delete</button>
                     </li>
                 </React.Fragment>
             )

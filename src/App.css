@@ -5,7 +5,8 @@ ul {
 .main-container {
   padding: 2rem;
   height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #1e1e1e;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -17,12 +18,13 @@ ul {
   justify-content: center;
   align-items: center;
   width: 100%;
+  
 }
 
 .form-input {
   padding: 0.75rem;
   outline: none;
-  border: 1px solid #999;
+  border: 1px solid rgb(247, 247, 247);
   width: 18rem;
 }
 
@@ -43,6 +45,7 @@ ul {
   width: 24rem;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  border: 2px solid white;
   margin: 1rem 0;
   padding: 1rem;
   font-weight: bold;
