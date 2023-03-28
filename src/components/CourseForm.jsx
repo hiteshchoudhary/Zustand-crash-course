@@ -13,7 +13,8 @@ const CourseForm = () => {
         if (!courseTitle) return alert("please add a course title");
         addCourse({
             id: Math.ceil(Math.random() * 1000000),
-            title: courseTitle
+            title: courseTitle,
+            completed: false,
         })
         setCourseTitle("")
 
